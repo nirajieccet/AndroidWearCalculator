@@ -1,11 +1,11 @@
 package com.example.calculator.presentation
 
+import CalculatorApp
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.viewModels
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
-import com.example.calculator.presentation.screens.CalculatorApp
 import com.example.calculator.presentation.viewmodel.CalculatorViewModel
 
 class MainActivity : ComponentActivity() {
